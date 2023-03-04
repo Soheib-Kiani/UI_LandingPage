@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 const header = () => {
   return (
-    <header className="max-w-7xl mx-auto  h-16 ">
-      <ul className="flex justify-between items-center p-3 mx-3">
+    <header className="max-w-7xl mx-auto  h-16 p-1">
+      <ul className="flex justify-between items-center ">
           {/* <img src="/icons/headericon.png" alt="icons" /> */}
           <li className="h-9 w-9 rounded-full">
             <img src="/favicon.ico" alt="logo" />
