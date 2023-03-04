@@ -8,7 +8,8 @@ import Footer from '../../components/footer';
 
 export default function Home() {
   return (
-    <div className="font-MonserratFont max-w-7xl mx-auto">
+    <div className="font-MonserratFont max-w-7xl mx-auto  ">
+    
       <Header />
       <Main />
       <Card />
@@ -16,6 +17,8 @@ export default function Home() {
       <Download />
       <Quoate />
       <Footer />
+      
+     
 
     </div>
   );

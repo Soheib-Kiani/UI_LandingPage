@@ -6,3 +6,6 @@
   font-family: 'Monserrat';
   src: url('/fonts/Montserrat-Regular.woff') format('woff');
 }
+.body{
+  background-color: rgb(255, 255, 255);
+}

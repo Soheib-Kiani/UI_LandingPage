@@ -1,6 +1,6 @@
 const quote = () => {
   return (
-    <section className="w-full bg-[#9166F0] h-[30rem] mt-12 text-center flex flex-col justify-around">
+    <section className=" bg-[#9166F0] h-[30rem] mt-12 text-center flex flex-col justify-around">
       <p className="flex justify-center text-[35px] text-white font-bold">
         Trusted by Agencies <br /> & Store Owners{' '}
       </p>
