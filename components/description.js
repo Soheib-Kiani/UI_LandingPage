@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 const description = () => {
   return (
-    <div className="mt-12">
+    <section className="mt-12">
       <div className="flex gap-x-9">
         {/* Image */}
         <div className="w-1/2 h-1/3">
@@ -73,7 +73,24 @@ const description = () => {
           </div>
         </div>
       </div>
-    </div>
+      <div className="grid grid-cols-5 place-items-center mt-12">
+        <div className="w-24 h-16 object-contain">
+          <img src="/icons/google.png" alt="icons" />
+        </div>
+        <div className="w-24 h-16 object-contain">
+          <img src="/icons/amazon.png" alt="icons" />
+        </div>
+        <div className="w-24 h-16 object-contain">
+          <img src="/icons/instacart.png" alt="icons" />
+        </div>
+        <div className="w-24 h-16 object-contain">
+          <img src="/icons/slack.png" alt="icons" />
+        </div>
+        <div className="w-24 h-16 object-contain">
+          <img src="/icons/helpscout.png" alt="icons" />
+        </div>
+      </div>
+    </section>
   );
 };
 
